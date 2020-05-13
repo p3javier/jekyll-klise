@@ -11,10 +11,14 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Klisé Theme
+  name: Javier Pérez
   bio: >-
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+    <p>Hi, I'm Javier a programmer specialized on Chrome extensions development. I'm also code for the web, my usual stack is: React + Redux + Express + Node.js + MySQL (or MariaDB) and additionally Python for specific things where it is more handy than JS.</p>
+    <p>Additionally I work as a Google Ads technician providing support to Google Ads, Analytics, Merchant Center & Tag Manager customers.</p>
+    <p>Find me on:</p>
+    <ul>
+    <li><a href="https://github.com/p3javier/" target="_blank" rel="noopener">@github</a>.</li>
+    <li><a href="https://github.com/p3javier/" target="_blank" rel="noopener">@github</a>.</li>
   username: username
   email: your-email@email.com
   avatar: /assets/img/avatar.jpg
