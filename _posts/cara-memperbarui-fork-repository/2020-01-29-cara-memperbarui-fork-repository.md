@@ -3,34 +3,44 @@ layout: post
 title: My first Github project
 date: 2020-05-12 18:30 +0200
 modified: 2020-03-07 16:49:47 +07:00
-description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+description: Explanation about why I've started this site and how I've reached this point.
 tag:
-  - tips
+  - me
   - git
   - software
+  - presentation
+  - portfolio
+  - coding
 image: /cara-memperbarui-fork-repository/repo.png
 ---
 
 Hello dear reader, if you are here is because you are interested in my person. Here you'll find a little about who I am and why I've created this website. Welcome.
 
-<figure>
-<img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
-<figcaption>Fig 1. Gambaran ribetnya.</figcaption>
-</figure>
 
-Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
 
-### Melalui Github (boring way) 💻
+### How I've entered into this world 💻
 
-1. Buka repo yang hasil fork di Github.
-1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
-1. Akan memunculkan hasil compare antara repo upstream dengan repo kamu(forked repo), dan jika menyatakan "There isn’t anything to compare.", tekan link **switching the base**, yang mana sekarang repo kamu(forked repo) akan dibalik menjadi base repo dan repo upstream menjadi head repo.
-1. Tekan **Create Pull Request**, beri judul pull request, Tekan **Send Pull Request**.
-1. Tekan **Merge Pull Request** dan **Confirm Merge**.
+I think that the roots of my current love to code are years before I learn my first programming language*, at the university. From my childhood I've been always curious about science and technology (apart from of course the things that every child like). 
 
-\* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
+Unluckily, I come form a **humble family**. I grew up in a working class neighborhood in **Córdoba (Spain)**. Back to these days my parents didn't have money to buy me a computer, not to mention an Internet connection that was very expensive at that time (early 2000s).
 
-### Melalui terminal ⌨️
+The next step in my love story with the technology came on **2010** when, finally, my parents had money to install Internet on my home. Yes, you've read correctly, **until 2010 I didn't have a personal Internet connection**. This was the beginning of a new era in my story.
+
+### Internet, the beginning of a *new era* 🌐
+
+It's May 2010 and the a *new era* begins for me, It was the era of **Internet**.
+
+Honestly back to those days I didn't use to take the same advantage of Internet as nowadays, where even I depend economically of it. All of what I used on Internet was the usually every teenager:
+1. Play online video games.
+1. Play music.
+1. Watch films.
+1. Also watch other kind of films...
+
+But quickly my passion for the technology brought me to other kind of more interesting things on Internet. YouTube, Wikipedia and many more sites were loaded with tons of precious content just there, free, for me.
+
+\* _It was Python 2.X._
+
+### Before Code */Anno ex codice* ⌨️
 
 Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`., ganti `ORIGINAL_OWNER` dan `ORIGINAL_REPO` dengan alamat repo aslimu.
 
@@ -40,7 +50,7 @@ $ git remote -v
 > origin    git@github.com:piharpi/www.git (fetch) # forked repo
 > origin    git@github.com:piharpi/www.git (push) # forked repo
 > upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (fetch) # upstream repo / original repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
+> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repov
 ```
 
 Checkout ke local branch `master`.
