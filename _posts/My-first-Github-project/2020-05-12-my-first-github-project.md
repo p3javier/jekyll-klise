@@ -2,7 +2,7 @@
 layout: post
 title: My first Github project
 date: 2020-05-12 18:30 +0200
-modified: 2020-03-07 16:49:47 +07:00
+modified: 2020-05-17 23:45:18 +02:00
 description: Explanation about why I've started this site and how I've reached this point.
 tag:
   - me
@@ -11,7 +11,6 @@ tag:
   - presentation
   - portfolio
   - coding
-image: /cara-memperbarui-fork-repository/repo.png
 ---
 
 Hello dear reader, if you are here is because you are interested in my person. Here you'll find a little about who I am and why I've created this website. Welcome.
