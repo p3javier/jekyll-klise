@@ -56,6 +56,6 @@ Thank you for keep reading until here, I hope you enjoy the extension as much as
 
 ##### Resources
 
-- [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
-- [Kernel Defintion](http://www.linfo.org/kernel.html)
-- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
+- [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- [Moment.js](https://momentjs.com/)
+- [Materialize CSS](https://materializecss.com/)
