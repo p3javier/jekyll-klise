@@ -2,17 +2,17 @@
 title: Colophon
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hello, I'm programmer from Spain, living in Poland. This blog for documentation about my programming journey, running on jekyll, hosting on netlify.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+I've decided to start this site as a more professional way of show a kind of CV.
 
-If you have a question about him or else, just send a letter to him.
+If you  have any question about me or me job, just drop me an email.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
 
-##### may u needs ✨
 
-- {{ site.author.email }}
-- github.com/{{ site.author.username }}
+##### Contact&portfolio ✨
+
+- javiperezfc@gmail.com
+- github.com/p3javier
