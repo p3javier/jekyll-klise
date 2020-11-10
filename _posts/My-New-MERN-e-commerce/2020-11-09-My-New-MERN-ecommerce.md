@@ -68,26 +68,28 @@ Now, you have the repo, but since we are using Node and React we need a folder c
 $ npm install
 ```
 
-#### Adding remote repository
+#### Setting environment variables
 
-Before we adding remote repository, you must have [github](https://github.com/new) repository, if already have repository, just add github remote address to your local folder, with the following commands
+Before we can run the scripts needed to test it in local we need to create a `.env` file. This file is used to avoid the use of sensitive information, such as API keys, directly in our code that later we are going to push to a repo.
 
-```bash
-$ git init # initializing project folder
-$ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git # change UPPERCASE with your own!
-$ git add -A && git commit -m "Initialize" && git push -u origin master # push code to github
+So go to `/server/` folder and create a new file with the name of `.env`.
+
+Inside this file copy and paste the next:
+
+```text
+
+CONNECTION_STRING=
+SESSION_SECRET=
+
+REACT_APP_AUTH0_CLIENT_ID=
+REACT_APP_AUTH0_DOMAIN=
+REACT_APP_AUTH0_CLIENT_SECRET=
 ```
 
-Now check your github repository, make sure the files is uploaded correctly.
+Now, save the file. By this moment this doesn't have the needed yet. This will be covered in the next chapter.
 
-#### Deploying to netlify
+#### Next Chapter
 
-Go [netlify](https://netlify.com) dashboard, and following this step.
+In the next chapter of this tutorial I will guide you through the process of creating a free cloud databe on Mongo Atlas as well as how to configure Auth0 for a SPA.
 
-1. click `new site from git`, then choose `Github`.
-2. then choose your repository where is the jekyll sources uploaded.
-3. netlify smart enough to configuring, we just need's are hosting's are hosting's are hosting's are hosting to click `Deploy site button`.
-
-Wait for moment, and voila..! your site's are hosting and using `.netlify.com` tld, if your website wants to look professional, just buy a domain from your favorite domain store. or if you the first time, I advice using namecheap.com*(isn't sponsor)* \*based on my experienced it provides good service and have various TLDs.
-
-So, what you waiting for, just create your own website for free.
+See you soon!

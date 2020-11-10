@@ -1,11 +1,11 @@
 # Site settings
 title: Javier Pérez
 description: >-
- Personal coding projects portfolio. Check my <a href="https://github.com/p3javier" target="_blank" rel="noopener">@github</a>.
+  Personal coding projects portfolio. Check my <a href="https://github.com/p3javier" target="_blank" rel="noopener">@github</a>.
 lang: en-US
 timezone: Europe/Madrid
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/mahendrata.now.sh
+repo: https://github.com/p3javier/portfolio-jekyll-static-site
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
@@ -23,7 +23,7 @@ author:
   avatar: /assets/img/avatar.jpg
 
 # Url settings
-url: "https://klise.now.sh" #configurar mas adelante
+url: "https://pejavier.com" #configurar mas adelante
 baseurl:
 permalink: /:title/
 google_analytics:
